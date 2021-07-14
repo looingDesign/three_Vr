@@ -1,1 +1,1 @@
-document.body.style.border = '1px solid #eee';
+document.body.style.border = '4px solid #eee';

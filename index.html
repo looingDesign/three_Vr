@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="ch">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商</title>
     <!-- IMPORT CSS -->
-
+    <style>
+        p{
+            margin: auto;
+            color: rebeccapurple;
+            font-size: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <div id='app'>
         <h1>{{name}}<h1>
                 <h2>{{date}}</h2>
+                <h5>标题标题</h5>
     </div>
     <!-- IMPORT JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
@@ -21,7 +29,9 @@
             el: '#app',
             data: {
                 name: '商',
-                date: "2021-07-14"
+                date:{
+                    time:'wangzhigang'
+                }
             },
             methods: {
 
